@@ -1,0 +1,29 @@
+{
+  "name": "react-server-side",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihtoa/react-server-side.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mihtoa/react-server-side/issues"
+  },
+  "homepage": "https://github.com/mihtoa/react-server-side#readme",
+  "devDependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
