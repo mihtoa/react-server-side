@@ -8,6 +8,9 @@
     "build": "next build",
     "start": "next start -p $PORT"
   },
+  "engines": {
+    "node": "10"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mihtoa/react-server-side.git"
