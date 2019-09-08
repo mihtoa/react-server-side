@@ -1,9 +1,7 @@
 import React from 'react'
 import 'isomorphic-fetch'
 
-export default () => <h1>Hello World</h1>
-
-/* const Home = ({ repos }) => (
+const Home = ({ repos }) => (
   <div>
     { repos.map(repo => (
       <a href={ repo.html_url }><p key={ repo.id }>{ repo.name }</p></a>
@@ -18,4 +16,4 @@ Home.getInitialProps = async () => {
   return { repos }
 } 
 
-export default Home */
+export default Home
