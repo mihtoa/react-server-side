@@ -22,7 +22,7 @@
     "url": "https://github.com/mihtoa/react-server-side/issues"
   },
   "homepage": "https://github.com/mihtoa/react-server-side#readme",
-  "devDependencies": {
+  "dependencies": {
     "isomorphic-fetch": "^2.2.1",
     "next": "^9.0.5",
     "react": "^16.9.0",
